@@ -5,6 +5,11 @@ let mapleader=","             " change the leader to be a comma vs slash
 
 
 
+
+" Enable show marks
+"let g:showmarks_enable=1
+
+
 " Pathogen configuration for handling plugins:
 filetype off
 call pathogen#runtime_append_all_bundles()
@@ -168,14 +173,19 @@ nmap ; :
 
 
 " Disable arrow keys
-noremap  <Up> ""
-noremap! <Up> <Esc>
-noremap  <Down> ""
-noremap! <Down> <Esc>
-noremap  <Left> ""
-noremap! <Left> <Esc>
-noremap  <Right> ""
-noremap! <Right> <Esc>
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+
+"noremap  <Up> ""
+"noremap! <Up> <Esc>
+"noremap  <Down> ""
+"noremap! <Down> <Esc>
+"noremap  <Left> ""
+"noremap! <Left> <Esc>
+"noremap  <Right> ""
+"noremap! <Right> <Esc>
 set nowrap
 set textwidth=0
 
@@ -184,12 +194,20 @@ set textwidth=0
 nnoremap <Leader>s :%s/\<<C-r><C-w>\>//g<Left><Left>
 
 
+
+
 " Re-'source' .vimrc when saving
 :au! BufWritePost $MYVIMRC source $MYVIMRC
+" Quickly edit/reload the vimrc file
+nmap <silent> <leader>ev :e $MYVIMRC<CR>
+nmap <silent> <leader>sv :so $MYVIMRC<CR>
+
+
 
 
 " Run command-t file search
 map <leader>f :CommandT<CR>
+map <leader>F :CommandT ~/<CR>
 
 " close preview window automatically when we move around
 autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
@@ -204,3 +222,12 @@ set colorcolumn=79
 " Don't backup or swap files
 set nobackup
 set nowritebackup
+set noswapfile
+
+
+set history=1000         " remember more commands and search history
+set undolevels=1000      " use many muchos levels of undo
+set wildignore=*.swp,*.bak,*.pyc,*.class
+
+
+map <C-W><C-]> :vert wincmd ]<CR>

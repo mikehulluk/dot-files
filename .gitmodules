@@ -4,3 +4,9 @@
 [submodule "bundle/command-t"]
 	path = home/.vim/bundle/command-t
 	url = https://github.com/wincent/Command-T.git
+[submodule "home/.vim/bundle/LustyJuggler"]
+	path = home/.vim/bundle/LustyJuggler
+	url = https://github.com/vim-scripts/LustyJuggler.git
+[submodule "home/.vim/bundle/pyflakes"]
+	path = home/.vim/bundle/pyflakes
+	url = https://github.com/mitechie/pyflakes-pathogen.git
