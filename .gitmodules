@@ -10,3 +10,6 @@
 [submodule "home/.vim/bundle/pyflakes"]
 	path = home/.vim/bundle/pyflakes
 	url = https://github.com/mitechie/pyflakes-pathogen.git
+[submodule "home/.zshconfig/oh-my-zsh"]
+	path = home/.zshconfig/oh-my-zsh
+	url = git://github.com/robbyrussell/oh-my-zsh.git
