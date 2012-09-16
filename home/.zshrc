@@ -73,6 +73,7 @@ alias givm="gvim"
 
 
 ZSH_THEME="robbyrussell"
+ZSH_THEME="kphoen"
 plugins=(git)
 ZSH=/home/michael/.zshconfig/oh-my-zsh/
 source $ZSH/oh-my-zsh.sh
