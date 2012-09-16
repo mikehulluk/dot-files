@@ -67,3 +67,5 @@ export PYTHONPATH="$PYTHONPATH:/home/michael/srcs/scimath/"
 export PATH="$PATH:/home/michael/hw_to_come/python-devtools/bin"
 
 alias givm="gvim"
+
+source "/home/michael/.zshconfig/oh-my-zsh/templates/zshrc.zsh-template"
