@@ -1,0 +1,5 @@
+[user]
+	name = Michael Hull
+	email = mikehulluk@googlemail.com
+[core]
+	excludesfile = /home/michael/.gitignore_global
