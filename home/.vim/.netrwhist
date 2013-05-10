@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/michael/hw_to_come/libs/NeuroUnits/src/neurounits/codegen/python'
+let g:netrw_dirhist_2='/home/michael/hw_to_come/libs/NeuroUnits/src/neurounits/codegen/utils'
+let g:netrw_dirhist_3='/home/michael/hw_to_come/libs/NeuroUnits/src/neurounits/codegen'
+let g:netrw_dirhist_4='/home/michael/hw_to_come/libs/NeuroUnits/src/neurounits/codegen/python'
+let g:netrw_dirhist_5='/home/michael/hw_to_come/libs/NeuroUnits/src/neurounits/codegen'
+let g:netrw_dirhist_6='/home/michael/hw_to_come/libs/NeuroUnits/src/neurounits/codegen/cpp1'
+let g:netrw_dirhist_7='/home/michael/hw_to_come/libs/NeuroUnits/src/neurounits/codegen'
+let g:netrw_dirhist_8='/home/michael/hw_to_come/libs/NeuroUnits/src/neurounits/codegen/cpp1'
+let g:netrw_dirhist_9='/home/michael/hw_to_come/libs/NeuroUnits/indev/scripts/op'

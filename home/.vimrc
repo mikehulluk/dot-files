@@ -29,6 +29,9 @@ map <c-h> <c-w>h
 "  happen as if in command mode )
 imap <C-W> <C-O><C-W>
 
+map <M-l> :bn<CR>
+map <M-h> :bp<CR>
+
 
 
 " ==========================================================
@@ -231,3 +234,7 @@ set wildignore=*.swp,*.bak,*.pyc,*.class
 
 
 map <C-W><C-]> :vert wincmd ]<CR>
+
+
+" waf-files are python
+autocmd BufRead,BufNewFile wscript set filetype=python
