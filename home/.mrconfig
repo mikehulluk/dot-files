@@ -1,0 +1,28 @@
+
+[hw_to_come/morphforge]
+checkout = git clone 'git@github.com:mikehulluk/morphforge.git' 'morphforge'
+gui = git cola
+
+[hw_to_come/signalanalysis]
+checkout = hg clone 'ssh://michael@linode//var/hw/signalanalysis' 'signalanalysis'
+gui = thg -R /home/michael/hw_to_come/signalanalysis
+
+[hw_to_come/hw-results]
+checkout = git clone 'ssh://michael@mikehull.dyndns.org//var/hw/hw-results/' 'hw-results'
+gui = git cola
+
+[hw_to_come/libs/mredoc]
+checkout = git clone 'git@github.com:mikehulluk/mredoc.git' 'mredoc'
+gui = git cola
+
+[hw_to_come/libs/mreorg]
+checkout = git clone 'git@github.com:mikehulluk/mreorg.git' 'mreorg'
+gui = git cola
+
+[hw_to_come/libs/NeuroUnits]
+checkout = git clone 'git@github.com:mikehulluk/NeuroUnits.git' 'NeuroUnits'
+gui = git cola
+
+[hw_to_come/hw-writing]
+checkout = git clone 'ssh://mikehull.dyndns.org//var/hw/hw-writing/' 'hw-writing'
+gui = git cola
