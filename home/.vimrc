@@ -1,4 +1,8 @@
 
+
+
+
+
 " .vimrc for Mike Hull
 set nocompatible              " Don't be compatible with vi
 let mapleader=","             " change the leader to be a comma vs slash
@@ -148,7 +152,8 @@ set autoindent
 
 let Tlist_Ctags_Cmd='/usr/bin/ctags'
 let g:easytags_file = '~/tags'
-set tags=/home/michael/tags
+"set tags=./tags;/auto/homes/mh735/tags
+set tags=/auto/homes/mh735/tags
 map P :TlistToggle<CR>
 let Tlist_WinWidth = 50
 set textwidth=79
@@ -175,11 +180,11 @@ imap jj <Esc>
 nmap ; :
 
 
-" Disable arrow keys
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
+"" Disable arrow keys
+"map <up> <nop>
+"map <down> <nop>
+"map <left> <nop>
+"map <right> <nop>
 
 "noremap  <Up> ""
 "noremap! <Up> <Esc>
@@ -238,3 +243,10 @@ map <C-W><C-]> :vert wincmd ]<CR>
 
 " waf-files are python
 autocmd BufRead,BufNewFile wscript set filetype=python
+
+
+
+au! Syntax bsv source ~/.vim/syntax/bsv.vim
+
+
+autocmd FileType make setlocal noexpandtab

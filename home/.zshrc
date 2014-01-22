@@ -81,3 +81,6 @@ export PYTHONPATH="$PYTHONPATH:/home/michael/srcs/ply/"
 export PATH="$PATH:/home/michael/hw_to_come/libs/NeuroUnits/bin/"
 
 export PYTHONPATH="$PYTHONPATH:/home/michael/srcs/pymorph/"
+
+export PATH="$PATH:/home/mh735/.gem/ruby/1.9.1/bin"
+

@@ -3,3 +3,8 @@
 	email = mikehulluk@googlemail.com
 [core]
 	excludesfile = /home/michael/.gitignore_global
+
+[diff]
+    tool = meld
+[merge]
+	tool = meld
