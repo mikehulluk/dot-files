@@ -10,7 +10,7 @@ _svg_to_pdf_builder = SCons.Builder.Builder(
                 src_suffix='.svg')
 
 _svg_to_eps_builder = SCons.Builder.Builder(
-                action = 'inkscape --without-gui $SOURCE --export-eps=$TARGET --export-area-page 2>&1', 
+                action = 'inkscape --without-gui $SOURCE --export-dpi=250 --export-eps=$TARGET --export-area-page 2>&1', 
                 suffix='.eps', 
                 src_suffix='.svg')
 
